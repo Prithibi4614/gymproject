@@ -33,7 +33,8 @@ body{
     text-decoration: none;
     color: rgb(28, 43, 17);
     font-weight: 700;
-}.header ul li:hover{
+}
+.header ul li:hover{
     background-color: #48a0e7;
     color: white;
 }
@@ -347,13 +348,46 @@ footer{
 }
 /* Media */
 @media (max-width: 420px) {
-    .container{
+    .header{
+        background-color: #154c79;
+        width: 100%;
+        height: 80px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-end;
+        align-items: center;
     }
+    .header ul{
+        display: flex;
+
+    }
+    .header ul li{
+        list-style: none;
+        margin-right: 10px;
+        background-color: aquamarine;
+        padding: 5px 5px;
+        border-radius: 10px;
+    
+    }
+    .header ul li a{
+        font-size: 14px;
+    }
+  
+    .header .search-box{
+        display: none;   
+    }
+    .sidebar{
+        background-color: #ffffff;
+        width: 400px;
+        height: 650px;
+        position: absolute;
+        border-radius: 5px;
+        transform: translateX(-450px);
+        transition: transform 250ms ease-in-out ;
+    }
+    
     .box{
         height: 420px;
-        width: 280px;
+        width: 380px;
         margin-top: 15px;
         border-radius: 15px;
         background: #e0e0e0;
