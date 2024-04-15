@@ -350,7 +350,7 @@ footer{
 @media (max-width: 420px) {
     .header{
         background-color: #154c79;
-        width: 92%;
+        width: 100%;
         height: 80px;
         display: flex;
         justify-content: flex-end;
@@ -362,7 +362,7 @@ footer{
     }
     .header ul li{
         list-style: none;
-        margin-right: 10px;
+        margin-right: 25px;
         background-color: aquamarine;
         padding: 5px 5px;
         border-radius: 10px;
@@ -377,28 +377,20 @@ footer{
     }
     .sidebar{
         background-color: #ffffff;
-        width: 360px;
-        height: 650px;
+        width: 410px;
+        height: 680px;
         position: absolute;
         border-radius: 5px;
-        transform: translateX(-450px);
-        transition: transform 250ms ease-in-out ;
     }
     
     .box{
         height: 420px;
-        width: 320px;
+        width: 380px;
         margin-top: 15px;
-        border-radius: 15px;
-        background: #e0e0e0;
-        box-shadow:  2px 2px 40px #bebebe,
     }
     
     .box-img{
         height: 200px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 1rem 0rem 0.60rem 0rem;
     }
     .box-content{
         margin-left: 1rem;
